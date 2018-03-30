@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://yoursite.com/"/>
-  <updated>2018-03-30T09:17:40.000Z</updated>
+  <updated>2018-03-30T09:24:01.000Z</updated>
   <id>http://yoursite.com/</id>
   
   <author>
@@ -17,23 +17,23 @@
   <generator uri="http://hexo.io/">Hexo</generator>
   
   <entry>
-    <title></title>
+    <title>Mac下升级ruby至最新版本</title>
     <link href="http://yoursite.com/2018/03/30/Mac%E4%B8%8B%E5%8D%87%E7%BA%A7ruby%E8%87%B3%E6%9C%80%E6%96%B0%E7%89%88%E6%9C%AC/"/>
     <id>http://yoursite.com/2018/03/30/Mac下升级ruby至最新版本/</id>
     <published>2018-03-30T08:34:09.000Z</published>
-    <updated>2018-03-30T09:17:40.000Z</updated>
+    <updated>2018-03-30T09:24:01.000Z</updated>
     
-    <content type="html"><![CDATA[<p>###Mac下升级ruby至最新版本</p><blockquote><p>Mac OS自身安装的有ruby，但是版本较低，为2.0.x<br>而安装CocoaPods，最低版本是2.2</p></blockquote><p><strong>查看ruby版本</strong> </p><pre><code class="JavaScript">ruby --version</code></pre><p><strong>安装homebrew</strong> </p><pre><code class="JavaScript">ruby -e <span class="string">"$(curl -fsSL https://raw.github.com/Homebrew/homebrew/go/install)"</span></code></pre><p><strong>通过 brew 安装 Ruby 最新版本</strong> </p><pre><code class="JavaScript"><span class="number">1.</span>  brew update<span class="number">2.</span>  brew install ruby</code></pre><p> <strong>再次查看ruby版本</strong> </p><pre><code class="JavaScript">ruby --version</code></pre><p><strong>添加ruby至环境变量</strong> </p><pre><code class="JavaScript"><span class="number">1.</span>  vim .profile<span class="number">2.</span>  vim .bashrc<span class="number">3.</span>  vim .bash_profile</code></pre><p><strong>重启source</strong> </p><pre><code class="JavaScript"><span class="number">1.</span>  source .profile<span class="number">2.</span>  source .bash_profile</code></pre>]]></content>
+    <content type="html"><![CDATA[<blockquote><p>Mac OS自身安装的有ruby，但是版本较低，为2.0.x<br>而安装CocoaPods，最低版本是2.2</p></blockquote><p><strong>查看ruby版本</strong> </p><pre><code class="JavaScript">ruby --version</code></pre><p><strong>安装homebrew</strong> </p><pre><code class="JavaScript">ruby -e <span class="string">"$(curl -fsSL https://raw.github.com/Homebrew/homebrew/go/install)"</span></code></pre><p><strong>通过 brew 安装 Ruby 最新版本</strong> </p><pre><code class="JavaScript"><span class="number">1.</span>  brew update<span class="number">2.</span>  brew install ruby</code></pre><p> <strong>再次查看ruby版本</strong> </p><pre><code class="JavaScript">ruby --version</code></pre><p><strong>添加ruby至环境变量</strong> </p><pre><code class="JavaScript"><span class="number">1.</span>  vim .profile<span class="number">2.</span>  vim .bashrc<span class="number">3.</span>  vim .bash_profile</code></pre><p><strong>重启source</strong> </p><pre><code class="JavaScript"><span class="number">1.</span>  source .profile<span class="number">2.</span>  source .bash_profile</code></pre>]]></content>
     
     <summary type="html">
     
       
       
-        &lt;p&gt;###Mac下升级ruby至最新版本&lt;/p&gt;
-&lt;blockquote&gt;
+        &lt;blockquote&gt;
 &lt;p&gt;Mac OS自身安装的有ruby，但是版本较低，为2.0.x&lt;br&gt;而安装CocoaPods，最低版本是2.2&lt;/p&gt;
 &lt;/blockquote&gt;
-&lt;p&gt;&lt;strong&gt;查看ruby版本&lt;/str
+&lt;p&gt;&lt;strong&gt;查看ruby版本&lt;/strong&gt; &lt;/p&gt;
+&lt;pre&gt;&lt;code class
       
     
     </summary>
