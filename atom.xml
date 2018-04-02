@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://yoursite.com/"/>
-  <updated>2018-04-02T06:58:55.000Z</updated>
+  <updated>2018-04-02T07:11:19.000Z</updated>
   <id>http://yoursite.com/</id>
   
   <author>
@@ -21,9 +21,9 @@
     <link href="http://yoursite.com/2018/04/02/Xcode%20IOS%E5%BC%80%E5%8F%91%E6%A3%80%E6%B5%8BAPI%E7%89%88%E6%9C%AC%E5%A4%A7%E4%BA%8Edeployment%20target/"/>
     <id>http://yoursite.com/2018/04/02/Xcode IOS开发检测API版本大于deployment target/</id>
     <published>2018-04-02T06:51:20.000Z</published>
-    <updated>2018-04-02T06:58:55.000Z</updated>
+    <updated>2018-04-02T07:11:19.000Z</updated>
     
-    <content type="html"><![CDATA[<blockquote><p>在使用Xcode开发的时候， 我们App一般会支持往前的3个IOS系统版本。 这个时候，开发人员难免会不小心使用了新版本API ，并且忘记做了系统版本的判断，导致应用上线后在老版本的IOS系统上崩溃。</p></blockquote><p><strong>最优美的解决方案</strong></p><p>测试Xcode版本：9.2</p><p>在Xcode - Build Settings 中找到OtherWarning Flags，添加-Wpartial-availability，如下图：<br><img src="media/15226518803975/15226522910647.jpg" alt=""><br>配置完成后，编译项目，有问题的代码就会出现警告。</p>]]></content>
+    <content type="html"><![CDATA[<blockquote><p>在使用Xcode开发的时候， 我们App一般会支持往前的3个IOS系统版本。 这个时候，开发人员难免会不小心使用了新版本API ，并且忘记做了系统版本的判断，导致应用上线后在老版本的IOS系统上崩溃。</p></blockquote><p><strong>最优美的解决方案</strong></p><p>测试Xcode版本：9.2</p><p>在Xcode - Build Settings 中找到OtherWarning Flags，添加-Wpartial-availability，如下图：<br><img src="media/15226518803975/15226518803975.png" alt="实例截图"></p><p>配置完成后，编译项目，有问题的代码就会出现警告。</p>]]></content>
     
     <summary type="html">
     
